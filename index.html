@@ -8,39 +8,42 @@
   <title>Tamara Eszterhas</title>
 </head>
 <body>
-<div class="flex flex-col h-screen justify-between">
-    <div class="relative mb-auto">
-        <div class="mx-auto px-4 sm:px-6 bg-yellow-300 bg-stripes bg-stripes-white">
-            <nav class="relative flex items-center justify-end">
-                <div class="space-x-4 py-4">
-                    <div class="inline-block rounded-full text-white font-extrabold text-center bg-yellow-500 hover:bg-yellow-700 px-2 py-2">
-                        <a href="index.html">About Me</a></div>
-                    <div class="inline-block rounded-full text-white font-extrabold text-center bg-yellow-500 hover:bg-yellow-700 px-2 py-2">
-                        <a href="./cv.html">CV</a></div>
-                </div> 
-            </nav>  
+
+<div class="sticky top-0 z-40 w-full bg-white">
+    <div class="mx-auto px-4 sm:px-6 bg-yellow-300 bg-stripes bg-stripes-white">
+        <nav class="relative flex items-center justify-end">
+            <div class="space-x-4 py-4">
+                <div class="inline-block rounded-full text-white font-extrabold text-center bg-yellow-500 hover:bg-yellow-700 px-2 py-2">
+                    <a href="index.html">About Me</a></div>
+                <div class="inline-block rounded-full text-white font-extrabold text-center bg-yellow-500 hover:bg-yellow-700 px-2 py-2">
+                    <a href="./cv.html">CV</a></div>
+            </div> 
+        </nav>  
+    </div>
+</div>
+<div class="w-full min-w-0 max-h-full">
+    <div class="min-w-0 flex-auto bg-white px-4 sm:px-6 xl:px-8 pt-10 pb-24 lg:pb-16">
+        <div class="pb-10 mx-auto">
+                <h1 class="text-3xl font-bold text-center"> Tamara Eszterhas </h1>
         </div>
-        <div class="bg-white px-4 sm:px-6 xl:px-8 pt-10 pb-24 lg:pb-16">
-            <div class="pb-10 mx-auto">
-                    <h1 class="text-3xl font-bold text-center"> Tamara Eszterhas </h1>
-            </div>
-            <div class="prose max-w-prose mx-auto">
-                <p class="pb-4">I'm a masters student at the University of Cambridge, studying Computer Science.
-                    I have an interest in computer networks, algorithms, and all things backend development.</p>
-                <p class="pb-4">I did my BSc in Computer Science at the University of Warwick, where I did my bachelor's project
-                    in computational complexity theory. My current master's thesis at Cambridge is about high precision
-                    network traffic measurement.
-                </p>
-            </div>
+        <div class="prose max-w-prose mx-auto">
+            <p class="pb-4">I'm a masters student at the University of Cambridge, studying Computer Science.
+                I have an interest in computer networks, algorithms, and all things backend development.</p>
+            <p class="pb-4">I did my BSc in Computer Science at the University of Warwick, where I did my bachelor's project
+                in computational complexity theory. My current master's thesis at Cambridge is about high precision
+                network traffic measurement.
+            </p>
         </div>
     </div>
-    <footer class="min-w-full py-10 px-4 md:items-center md:justify-center bg-gray-100">
-            <p>Website by Tamara Eszterhas. Built using 
-            <a class="font-medium hover:text-gray-700" href="https://www.tailwindcss.com/"> tailwindcss</a>.
-            Check out the 
-            <a class="font-medium hover:text-gray-700" href="https://github.com/kacsa123/kacsa123.github.io"> github repo </a>
-            for more details!</p>    
-    </footer>
+</div>
+
+<footer class="fixed bottom-0 min-w-full py-4 px-4 md:items-center md:justify-center bg-gray-100">
+    <p>Website by Tamara Eszterhas. Built using 
+    <a class="font-medium hover:text-gray-700" href="https://www.tailwindcss.com/"> tailwindcss</a>.
+    Check out the 
+    <a class="font-medium hover:text-gray-700" href="https://github.com/kacsa123/kacsa123.github.io"> github repo </a>
+    for more details!</p>    
+</footer>
 </div>
 </body>
 </html>
